@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A1BBAF52210262200D90C4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1BBAF42210262200D90C4D /* AppDelegate.m */; };
+		7A1BBAF82210262200D90C4D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1BBAF72210262200D90C4D /* ViewController.m */; };
+		7A1BBAFB2210262200D90C4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A1BBAF92210262200D90C4D /* Main.storyboard */; };
+		7A1BBAFD2210262400D90C4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A1BBAFC2210262400D90C4D /* Assets.xcassets */; };
+		7A1BBB002210262400D90C4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A1BBAFE2210262400D90C4D /* LaunchScreen.storyboard */; };
+		7A1BBB032210262400D90C4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1BBB022210262400D90C4D /* main.m */; };
+		7A1BBB0D2210262400D90C4D /* SFAlertViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1BBB0C2210262400D90C4D /* SFAlertViewControllerTests.m */; };
+		7A1BBB182210262400D90C4D /* SFAlertViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1BBB172210262400D90C4D /* SFAlertViewControllerUITests.m */; };
+		7AE122A22213F80C003BADC3 /* SFAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE122A12213F80C003BADC3 /* SFAlertAction.m */; };
+		7AE122A52213F8D8003BADC3 /* SFAlertControllerConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE122A42213F8D8003BADC3 /* SFAlertControllerConstant.m */; };
+		7AE122A82213FDC9003BADC3 /* SFAlertControllerTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE122A72213FDC9003BADC3 /* SFAlertControllerTransitionAnimator.m */; };
+		7AE122AB2213FDE3003BADC3 /* SFAlertViewPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE122AA2213FDE3003BADC3 /* SFAlertViewPresentationController.m */; };
+		7AE122AE2214008C003BADC3 /* SFAlertContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE122AD2214008C003BADC3 /* SFAlertContentView.m */; };
+		7AE122B122140174003BADC3 /* UIView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE122B022140174003BADC3 /* UIView+CornerRadius.m */; };
+		7AE122B422140326003BADC3 /* UIView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE122B222140326003BADC3 /* UIView+YYAdd.m */; };
+		7AE122B7221408F1003BADC3 /* SFAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE122B6221408F1003BADC3 /* SFAlertViewController.m */; };
+		7AE122BA22140CC7003BADC3 /* SFTextFeildAlertContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE122B922140CC7003BADC3 /* SFTextFeildAlertContentView.m */; };
+		7AE122BD22140D29003BADC3 /* SFTexFeildAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE122BC22140D29003BADC3 /* SFTexFeildAlertViewController.m */; };
+		BDFF7025179B15153D77FE22 /* libPods-SFAlertViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B5C39C8946235CDFE606C8 /* libPods-SFAlertViewController.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A1BBB092210262400D90C4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A1BBAE82210262200D90C4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A1BBAEF2210262200D90C4D;
+			remoteInfo = SFAlertViewController;
+		};
+		7A1BBB142210262400D90C4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A1BBAE82210262200D90C4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A1BBAEF2210262200D90C4D;
+			remoteInfo = SFAlertViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13845E68A20C89A421FD1C23 /* Pods-SFAlertViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFAlertViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-SFAlertViewController/Pods-SFAlertViewController.release.xcconfig"; sourceTree = "<group>"; };
+		46B5C39C8946235CDFE606C8 /* libPods-SFAlertViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SFAlertViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A1BBAF02210262200D90C4D /* SFAlertViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFAlertViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A1BBAF32210262200D90C4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7A1BBAF42210262200D90C4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7A1BBAF62210262200D90C4D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7A1BBAF72210262200D90C4D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7A1BBAFA2210262200D90C4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A1BBAFC2210262400D90C4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A1BBAFF2210262400D90C4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A1BBB012210262400D90C4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A1BBB022210262400D90C4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A1BBB082210262400D90C4D /* SFAlertViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFAlertViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A1BBB0C2210262400D90C4D /* SFAlertViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFAlertViewControllerTests.m; sourceTree = "<group>"; };
+		7A1BBB0E2210262400D90C4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A1BBB132210262400D90C4D /* SFAlertViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFAlertViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A1BBB172210262400D90C4D /* SFAlertViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFAlertViewControllerUITests.m; sourceTree = "<group>"; };
+		7A1BBB192210262400D90C4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A7777F2D18FBF1DD7E00E20 /* Pods-SFAlertViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFAlertViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SFAlertViewController/Pods-SFAlertViewController.debug.xcconfig"; sourceTree = "<group>"; };
+		7AE122A02213F80C003BADC3 /* SFAlertAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFAlertAction.h; sourceTree = "<group>"; };
+		7AE122A12213F80C003BADC3 /* SFAlertAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFAlertAction.m; sourceTree = "<group>"; };
+		7AE122A32213F8D8003BADC3 /* SFAlertControllerConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFAlertControllerConstant.h; sourceTree = "<group>"; };
+		7AE122A42213F8D8003BADC3 /* SFAlertControllerConstant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFAlertControllerConstant.m; sourceTree = "<group>"; };
+		7AE122A62213FDC9003BADC3 /* SFAlertControllerTransitionAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFAlertControllerTransitionAnimator.h; sourceTree = "<group>"; };
+		7AE122A72213FDC9003BADC3 /* SFAlertControllerTransitionAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFAlertControllerTransitionAnimator.m; sourceTree = "<group>"; };
+		7AE122A92213FDE3003BADC3 /* SFAlertViewPresentationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFAlertViewPresentationController.h; sourceTree = "<group>"; };
+		7AE122AA2213FDE3003BADC3 /* SFAlertViewPresentationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFAlertViewPresentationController.m; sourceTree = "<group>"; };
+		7AE122AC2214008C003BADC3 /* SFAlertContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFAlertContentView.h; sourceTree = "<group>"; };
+		7AE122AD2214008C003BADC3 /* SFAlertContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFAlertContentView.m; sourceTree = "<group>"; };
+		7AE122AF22140174003BADC3 /* UIView+CornerRadius.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+CornerRadius.h"; sourceTree = "<group>"; };
+		7AE122B022140174003BADC3 /* UIView+CornerRadius.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+CornerRadius.m"; sourceTree = "<group>"; };
+		7AE122B222140326003BADC3 /* UIView+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYAdd.m"; sourceTree = "<group>"; };
+		7AE122B322140326003BADC3 /* UIView+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYAdd.h"; sourceTree = "<group>"; };
+		7AE122B5221408F1003BADC3 /* SFAlertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFAlertViewController.h; sourceTree = "<group>"; };
+		7AE122B6221408F1003BADC3 /* SFAlertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFAlertViewController.m; sourceTree = "<group>"; };
+		7AE122B822140CC7003BADC3 /* SFTextFeildAlertContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFTextFeildAlertContentView.h; sourceTree = "<group>"; };
+		7AE122B922140CC7003BADC3 /* SFTextFeildAlertContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFTextFeildAlertContentView.m; sourceTree = "<group>"; };
+		7AE122BB22140D29003BADC3 /* SFTexFeildAlertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFTexFeildAlertViewController.h; sourceTree = "<group>"; };
+		7AE122BC22140D29003BADC3 /* SFTexFeildAlertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFTexFeildAlertViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A1BBAED2210262200D90C4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFF7025179B15153D77FE22 /* libPods-SFAlertViewController.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A1BBB052210262400D90C4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A1BBB102210262400D90C4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C440E102522F4763B7B01DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A7777F2D18FBF1DD7E00E20 /* Pods-SFAlertViewController.debug.xcconfig */,
+				13845E68A20C89A421FD1C23 /* Pods-SFAlertViewController.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7A1BBAE72210262200D90C4D = {
+			isa = PBXGroup;
+			children = (
+				7A1BBAF22210262200D90C4D /* SFAlertViewController */,
+				7A1BBB0B2210262400D90C4D /* SFAlertViewControllerTests */,
+				7A1BBB162210262400D90C4D /* SFAlertViewControllerUITests */,
+				7A1BBAF12210262200D90C4D /* Products */,
+				0C440E102522F4763B7B01DB /* Pods */,
+				FE8CDA3F4964D570692A8D36 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7A1BBAF12210262200D90C4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A1BBAF02210262200D90C4D /* SFAlertViewController.app */,
+				7A1BBB082210262400D90C4D /* SFAlertViewControllerTests.xctest */,
+				7A1BBB132210262400D90C4D /* SFAlertViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A1BBAF22210262200D90C4D /* SFAlertViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7A1BBAF32210262200D90C4D /* AppDelegate.h */,
+				7A1BBAF42210262200D90C4D /* AppDelegate.m */,
+				7A1BBAF62210262200D90C4D /* ViewController.h */,
+				7A1BBAF72210262200D90C4D /* ViewController.m */,
+				7A1BBAF92210262200D90C4D /* Main.storyboard */,
+				7A1BBAFC2210262400D90C4D /* Assets.xcassets */,
+				7A1BBAFE2210262400D90C4D /* LaunchScreen.storyboard */,
+				7A1BBB012210262400D90C4D /* Info.plist */,
+				7A1BBB022210262400D90C4D /* main.m */,
+				7AE1229D2213F7C7003BADC3 /* SFAlertViewController */,
+				7AE122AF22140174003BADC3 /* UIView+CornerRadius.h */,
+				7AE122B022140174003BADC3 /* UIView+CornerRadius.m */,
+				7AE122B322140326003BADC3 /* UIView+YYAdd.h */,
+				7AE122B222140326003BADC3 /* UIView+YYAdd.m */,
+			);
+			path = SFAlertViewController;
+			sourceTree = "<group>";
+		};
+		7A1BBB0B2210262400D90C4D /* SFAlertViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A1BBB0C2210262400D90C4D /* SFAlertViewControllerTests.m */,
+				7A1BBB0E2210262400D90C4D /* Info.plist */,
+			);
+			path = SFAlertViewControllerTests;
+			sourceTree = "<group>";
+		};
+		7A1BBB162210262400D90C4D /* SFAlertViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A1BBB172210262400D90C4D /* SFAlertViewControllerUITests.m */,
+				7A1BBB192210262400D90C4D /* Info.plist */,
+			);
+			path = SFAlertViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		7AE1229D2213F7C7003BADC3 /* SFAlertViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7AE1229E2213F7EE003BADC3 /* NormalStyle */,
+				7AE1229F2213F7EE003BADC3 /* TextFeildStyle */,
+				7AE122A02213F80C003BADC3 /* SFAlertAction.h */,
+				7AE122A12213F80C003BADC3 /* SFAlertAction.m */,
+				7AE122A32213F8D8003BADC3 /* SFAlertControllerConstant.h */,
+				7AE122A42213F8D8003BADC3 /* SFAlertControllerConstant.m */,
+				7AE122A62213FDC9003BADC3 /* SFAlertControllerTransitionAnimator.h */,
+				7AE122A72213FDC9003BADC3 /* SFAlertControllerTransitionAnimator.m */,
+				7AE122A92213FDE3003BADC3 /* SFAlertViewPresentationController.h */,
+				7AE122AA2213FDE3003BADC3 /* SFAlertViewPresentationController.m */,
+			);
+			path = SFAlertViewController;
+			sourceTree = "<group>";
+		};
+		7AE1229E2213F7EE003BADC3 /* NormalStyle */ = {
+			isa = PBXGroup;
+			children = (
+				7AE122AC2214008C003BADC3 /* SFAlertContentView.h */,
+				7AE122AD2214008C003BADC3 /* SFAlertContentView.m */,
+				7AE122B5221408F1003BADC3 /* SFAlertViewController.h */,
+				7AE122B6221408F1003BADC3 /* SFAlertViewController.m */,
+			);
+			path = NormalStyle;
+			sourceTree = "<group>";
+		};
+		7AE1229F2213F7EE003BADC3 /* TextFeildStyle */ = {
+			isa = PBXGroup;
+			children = (
+				7AE122B822140CC7003BADC3 /* SFTextFeildAlertContentView.h */,
+				7AE122B922140CC7003BADC3 /* SFTextFeildAlertContentView.m */,
+				7AE122BB22140D29003BADC3 /* SFTexFeildAlertViewController.h */,
+				7AE122BC22140D29003BADC3 /* SFTexFeildAlertViewController.m */,
+			);
+			path = TextFeildStyle;
+			sourceTree = "<group>";
+		};
+		FE8CDA3F4964D570692A8D36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46B5C39C8946235CDFE606C8 /* libPods-SFAlertViewController.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A1BBAEF2210262200D90C4D /* SFAlertViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A1BBB1C2210262400D90C4D /* Build configuration list for PBXNativeTarget "SFAlertViewController" */;
+			buildPhases = (
+				062C3BA12ADAA0249E2A67EF /* [CP] Check Pods Manifest.lock */,
+				7A1BBAEC2210262200D90C4D /* Sources */,
+				7A1BBAED2210262200D90C4D /* Frameworks */,
+				7A1BBAEE2210262200D90C4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFAlertViewController;
+			productName = SFAlertViewController;
+			productReference = 7A1BBAF02210262200D90C4D /* SFAlertViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A1BBB072210262400D90C4D /* SFAlertViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A1BBB1F2210262400D90C4D /* Build configuration list for PBXNativeTarget "SFAlertViewControllerTests" */;
+			buildPhases = (
+				7A1BBB042210262400D90C4D /* Sources */,
+				7A1BBB052210262400D90C4D /* Frameworks */,
+				7A1BBB062210262400D90C4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A1BBB0A2210262400D90C4D /* PBXTargetDependency */,
+			);
+			name = SFAlertViewControllerTests;
+			productName = SFAlertViewControllerTests;
+			productReference = 7A1BBB082210262400D90C4D /* SFAlertViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A1BBB122210262400D90C4D /* SFAlertViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A1BBB222210262400D90C4D /* Build configuration list for PBXNativeTarget "SFAlertViewControllerUITests" */;
+			buildPhases = (
+				7A1BBB0F2210262400D90C4D /* Sources */,
+				7A1BBB102210262400D90C4D /* Frameworks */,
+				7A1BBB112210262400D90C4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A1BBB152210262400D90C4D /* PBXTargetDependency */,
+			);
+			name = SFAlertViewControllerUITests;
+			productName = SFAlertViewControllerUITests;
+			productReference = 7A1BBB132210262400D90C4D /* SFAlertViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A1BBAE82210262200D90C4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Fernando;
+				TargetAttributes = {
+					7A1BBAEF2210262200D90C4D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					7A1BBB072210262400D90C4D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7A1BBAEF2210262200D90C4D;
+					};
+					7A1BBB122210262400D90C4D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7A1BBAEF2210262200D90C4D;
+					};
+				};
+			};
+			buildConfigurationList = 7A1BBAEB2210262200D90C4D /* Build configuration list for PBXProject "SFAlertViewController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A1BBAE72210262200D90C4D;
+			productRefGroup = 7A1BBAF12210262200D90C4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A1BBAEF2210262200D90C4D /* SFAlertViewController */,
+				7A1BBB072210262400D90C4D /* SFAlertViewControllerTests */,
+				7A1BBB122210262400D90C4D /* SFAlertViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A1BBAEE2210262200D90C4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1BBB002210262400D90C4D /* LaunchScreen.storyboard in Resources */,
+				7A1BBAFD2210262400D90C4D /* Assets.xcassets in Resources */,
+				7A1BBAFB2210262200D90C4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A1BBB062210262400D90C4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A1BBB112210262400D90C4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		062C3BA12ADAA0249E2A67EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SFAlertViewController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A1BBAEC2210262200D90C4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1BBAF82210262200D90C4D /* ViewController.m in Sources */,
+				7AE122A82213FDC9003BADC3 /* SFAlertControllerTransitionAnimator.m in Sources */,
+				7AE122BD22140D29003BADC3 /* SFTexFeildAlertViewController.m in Sources */,
+				7AE122A22213F80C003BADC3 /* SFAlertAction.m in Sources */,
+				7AE122A52213F8D8003BADC3 /* SFAlertControllerConstant.m in Sources */,
+				7A1BBB032210262400D90C4D /* main.m in Sources */,
+				7A1BBAF52210262200D90C4D /* AppDelegate.m in Sources */,
+				7AE122AE2214008C003BADC3 /* SFAlertContentView.m in Sources */,
+				7AE122B122140174003BADC3 /* UIView+CornerRadius.m in Sources */,
+				7AE122BA22140CC7003BADC3 /* SFTextFeildAlertContentView.m in Sources */,
+				7AE122B7221408F1003BADC3 /* SFAlertViewController.m in Sources */,
+				7AE122B422140326003BADC3 /* UIView+YYAdd.m in Sources */,
+				7AE122AB2213FDE3003BADC3 /* SFAlertViewPresentationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A1BBB042210262400D90C4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1BBB0D2210262400D90C4D /* SFAlertViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A1BBB0F2210262400D90C4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1BBB182210262400D90C4D /* SFAlertViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A1BBB0A2210262400D90C4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A1BBAEF2210262200D90C4D /* SFAlertViewController */;
+			targetProxy = 7A1BBB092210262400D90C4D /* PBXContainerItemProxy */;
+		};
+		7A1BBB152210262400D90C4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A1BBAEF2210262200D90C4D /* SFAlertViewController */;
+			targetProxy = 7A1BBB142210262400D90C4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A1BBAF92210262200D90C4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A1BBAFA2210262200D90C4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A1BBAFE2210262400D90C4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A1BBAFF2210262400D90C4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A1BBB1A2210262400D90C4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7A1BBB1B2210262400D90C4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A1BBB1D2210262400D90C4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A7777F2D18FBF1DD7E00E20 /* Pods-SFAlertViewController.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = CM9C2GXE32;
+				INFOPLIST_FILE = SFAlertViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fernano.cn.SFAlertViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Wildcard_dev;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7A1BBB1E2210262400D90C4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13845E68A20C89A421FD1C23 /* Pods-SFAlertViewController.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = CM9C2GXE32;
+				INFOPLIST_FILE = SFAlertViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fernano.cn.SFAlertViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Wildcard_dev;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7A1BBB202210262400D90C4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SFAlertViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fernano.cn.SFAlertViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFAlertViewController.app/SFAlertViewController";
+			};
+			name = Debug;
+		};
+		7A1BBB212210262400D90C4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SFAlertViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fernano.cn.SFAlertViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFAlertViewController.app/SFAlertViewController";
+			};
+			name = Release;
+		};
+		7A1BBB232210262400D90C4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SFAlertViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fernano.cn.SFAlertViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SFAlertViewController;
+			};
+			name = Debug;
+		};
+		7A1BBB242210262400D90C4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SFAlertViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fernano.cn.SFAlertViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SFAlertViewController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A1BBAEB2210262200D90C4D /* Build configuration list for PBXProject "SFAlertViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A1BBB1A2210262400D90C4D /* Debug */,
+				7A1BBB1B2210262400D90C4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A1BBB1C2210262400D90C4D /* Build configuration list for PBXNativeTarget "SFAlertViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A1BBB1D2210262400D90C4D /* Debug */,
+				7A1BBB1E2210262400D90C4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A1BBB1F2210262400D90C4D /* Build configuration list for PBXNativeTarget "SFAlertViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A1BBB202210262400D90C4D /* Debug */,
+				7A1BBB212210262400D90C4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A1BBB222210262400D90C4D /* Build configuration list for PBXNativeTarget "SFAlertViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A1BBB232210262400D90C4D /* Debug */,
+				7A1BBB242210262400D90C4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A1BBAE82210262200D90C4D /* Project object */;
+}
