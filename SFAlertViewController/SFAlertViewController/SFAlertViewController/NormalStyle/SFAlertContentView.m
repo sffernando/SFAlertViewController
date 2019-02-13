@@ -181,7 +181,7 @@
                       actions:(NSArray <SFAlertAction *>*)actions
 {
     
-    NSAssert(middleCustomView, @"custom view must be not nil");
+    NSAssert(middleCustomView, @"custom view can not be nil");
     
     if (self = [super initWithFrame:frame]) {
         _actions = [actions copy];
@@ -272,7 +272,7 @@
                       actions:(NSArray <SFAlertAction *>*)actions
 {
     
-    NSAssert(topCustomView, @"自定义view必须不为空");
+    NSAssert(topCustomView, @"custom view can not be nil");
     
     if (self = [super initWithFrame:frame]) {
         _actions = [actions copy];
